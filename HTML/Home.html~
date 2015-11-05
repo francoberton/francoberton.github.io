@@ -22,7 +22,6 @@
       <li><a  class="font_helvetica" href="#About_me">About me<img src="../IMG/triangolo.png" /></a></li>
       <li><a  class="font_helvetica" href="#Curriculum">Curriculum<img src="../IMG/triangolo.png" /></a></li>
       <li><a  class="font_helvetica" href="#Portfolio">Portfolio<img src="../IMG/triangolo.png" /></a></li>
-      <li><a  class="font_helvetica" href="#Contatti">Contatti<img src="../IMG/triangolo.png" /></a></li>
     </ul>
   </nav>
 </header>
@@ -164,16 +163,6 @@ esempio, l’email), tipologia di account (Basic, Business, Executive).</li>
 	<h4>NewJob.it</h4>
 	<p></p>
 	</div>
-</div>
-<div class="section Contatti">
-	<h2>Contatti</h2>
-	<form method="post">
-	 <ul>
-	  <li><input type="text" id="Nome" name="Nome" placeholder="Name" /><input type="text" id="Email" name="Email" placeholder="Email" class="mail"/><input type="text" id="Oggetto" name="Oggetto" placeholder="Oggetto" /></li>
-	  <li><textarea value="Message" id="Messaggio" name="Messaggio" placeholder="Message"></textarea></li>
-	  <li><input type="submit" name="submit" class="send width20" value="SEND" /><input type='reset' class="reset width20" value='RESET' /></li>
-	 </ul>
-	</form>
 </div>
 <footer>
    	<ul>
