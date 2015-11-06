@@ -10,7 +10,7 @@ h3		     {font-family:'open_sansregular','Segoe UI',sans-serif;font-size:1.5em;f
 #h3_blue	     {color:#2980B9;}
 h4		     {font: 1.5em 'Lobster', Comic Sans MS, cursive;color:#fff;text-align:center;}
 header nav 	     {text-align:right;}
-header nav ul li     {display:inline-block;margin-left:2.5%;margin-right:2%;}
+header nav ul li     {display:inline-block;margin-left:1.5em;margin-right:1.5em;}
 header nav ul li a   {text-decoration:none;outline: 0;}
 .font_helvetica {color:#fff;font-size: 1em;font-family: "Helvetica Neue",Helvetica,Arial;font-weight: bold;opacity: 0.6;}
 header nav ul li a:hover,header nav ul li .active {color:#fff;opacity: 1;text-decoration: underline;}
