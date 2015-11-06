@@ -1,6 +1,6 @@
 *		     {outline:none;}
 body 	   	     {background: #262C30;margin:0;}
-header	   	     {display:table;width:100%;position: relative;background: #262C30;z-index:95;margin:0 auto;}
+header	   	     {display:table;width:100%;position: relative;background: #262C30;z-index:95;margin:0 auto;padding:1em;}
 header nav,header h2 {display: table-cell;vertical-align:middle;}
 
 h2		     {font: 2em 'Lobster', Comic Sans MS, cursive;color:#fff;padding-left:5px;}
