@@ -2,7 +2,7 @@
 body 	   	     {background: #262C30;margin:0;}
 header	   	     {display:table;width:100%;position: relative;background: #262C30;z-index:95;margin:0 auto;}
 header nav,header h2 {display: table-cell;vertical-align:middle;}
-
+header h2	     {margin-left:1em;}
 h2		     {font: 2em 'Lobster', Comic Sans MS, cursive;color:#fff;padding-left:5px;}
 h5		     {font: 1.25em 'Lobster', Comic Sans MS, cursive;color:#fff;}
 h3		     {font-family:'open_sansregular','Segoe UI',sans-serif;font-size:1.5em;font-weight:500;}
