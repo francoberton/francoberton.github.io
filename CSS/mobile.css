@@ -3,7 +3,7 @@
 	header nav ul li .font_helvetica   	{font-size: 2em;}
 }
 
-@media screen and (max-device-width:620px) and (max-width:620px) {
+@media screen and (max-device-width:620px)  {
 	header nav, header h2	     		{display:block;text-align:center;}
 }
 
