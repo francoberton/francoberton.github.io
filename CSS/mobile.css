@@ -2,7 +2,7 @@
 @media screen and (max-device-width:620px)  {
 	header nav, header h2, h2     		{display:block;text-align:center;}
 	.About_me p, .Curriculum #ul_curriculum, .Progetti        {width:85%;}
-	header nav ul li			{margin:0;}
+	header nav ul li			{margin-left:1em;margin-right:1em}
 	header h2				{font-size: 5em;}	
 	header nav ul li .font_helvetica   	{font-size: 3em;}
 }
