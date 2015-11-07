@@ -1,6 +1,6 @@
 *		     {outline:none;}
 html		     {padding:0;border:1px solid white;}
-body 	   	     {background: #262C30;margin:0;padding:0;1px solid white;}
+body 	   	     {background: #262C30;margin:0;padding:0;border:1px solid white;}
 header	   	     {display:table;width:100%;position: relative;background: #262C30;z-index:95;margin:0 auto;}
 header nav,header h2 {display: table-cell;vertical-align:middle;}
 header h2	     {margin-left:1em;}
