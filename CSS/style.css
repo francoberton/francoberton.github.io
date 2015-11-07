@@ -1,6 +1,6 @@
 *		     {outline:none;}
-html		     {padding:0;}
-body 	   	     {background: #262C30;margin:0;padding:0;}
+html		     {padding:0;border:1px solid white;}
+body 	   	     {background: #262C30;margin:0;padding:0;1px solid white;}
 header	   	     {display:table;width:100%;position: relative;background: #262C30;z-index:95;margin:0 auto;}
 header nav,header h2 {display: table-cell;vertical-align:middle;}
 header h2	     {margin-left:1em;}
@@ -16,7 +16,6 @@ header nav ul li a   {text-decoration:none;outline: 0;}
 .font_helvetica {color:#fff;font-size: 1em;font-family: "Helvetica Neue",Helvetica,Arial;font-weight: bold;opacity: 0.6;}
 header nav ul li a:hover,header nav ul li .active {color:#fff;opacity: 1;text-decoration: underline;}
 header nav ul li a img {display:none;}
-
 .active img 	       {display:block;margin:0 auto;}
 .section	       {position:relative;z-index: 10;}
 .About_me p	       {width:70%;margin:0 auto;background:black;text-align:center;padding:20px;border-radius:5px;border:1px solid #ccc;}
@@ -60,7 +59,7 @@ header nav ul li a img {display:none;}
 .Contatti form ul .place_color:-ms-input-placeholder {color:red;}
 
 
-footer	    				{background:black;margin:0;}
+footer	    				{background:black;margin-top:1em;}
 footer ul   				{list-style-type:none;padding-top:15px;padding-bottom:15px;}
 footer ul li				{text-align:center;}
 footer ul li #link_fb #fb_hover,footer ul li #link_is #is_hover,footer ul li #link_google #google_hover,footer ul li #link_twitter #twitter_hover,footer ul li #link_is:hover #is,footer ul li #link_fb:hover #fb,footer ul li #link_google:hover #google,footer ul li #link_twitter:hover #twitter {display:none;}
