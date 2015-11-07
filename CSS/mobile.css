@@ -5,6 +5,8 @@
 
 @media screen and (max-device-width:620px)  {
 	header nav, header h2, h2     		{display:block;text-align:center;}
+	.About_me p, .Curriculum #ul_curriculum, .Progetti        {width:90%;}
+
 
 }
 
