@@ -1,6 +1,5 @@
 *		     {outline:none;}
-html		     {padding:0;}
-body 	   	     {background: #262C30;margin:0;padding-bottom:0;border:1px solid white;}
+body 	   	     {background: #262C30;margin:0;}
 header	   	     {display:table;width:100%;position: relative;background: #262C30;z-index:95;margin:0 auto;}
 header nav,header h2 {display: table-cell;vertical-align:middle;}
 header h2	     {margin-left:1em;}
@@ -59,7 +58,7 @@ header nav ul li a img {display:none;}
 .Contatti form ul .place_color:-ms-input-placeholder {color:red;}
 
 
-footer	    				{background:black;margin-top:1em;}
+footer	    				{background:black;margin-top:1em;border:1px solid ;}
 footer ul   				{list-style-type:none;padding-top:15px;padding-bottom:15px;}
 footer ul li				{text-align:center;}
 footer ul li #link_fb #fb_hover,footer ul li #link_is #is_hover,footer ul li #link_google #google_hover,footer ul li #link_twitter #twitter_hover,footer ul li #link_is:hover #is,footer ul li #link_fb:hover #fb,footer ul li #link_google:hover #google,footer ul li #link_twitter:hover #twitter {display:none;}
