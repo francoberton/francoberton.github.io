@@ -10,7 +10,7 @@
 	.Curriculum ul .c_tit  			{width:35%;}
 	.Curriculum ul .c_desc 			{width:60%;}
 	.Curriculum ul .c_desc .anno		{width:40%;font-size:1.5em;}		
-	.Curriculum ul .c_desc .desc_anno	{width:59%;font-size:1.5em;}
+	.Curriculum ul .c_desc .desc_anno, .Curriculum ul .c_desc .desc_anno ul li{width:59%;font-size:1.5em;}
 	.Curriculum ul .c_desc ul li		{font-size:1.5em;}
 }
 
