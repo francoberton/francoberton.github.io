@@ -4,11 +4,12 @@
 }
 
 @media screen and (max-device-width:620px)  {
-	header nav, header h2	     		{display:block;text-align:center;}
+	header nav, h2     			{display:block;text-align:center;}
+
 }
 
 @media screen and (max-width:620px)  {
-	header nav, header h2	     		{display:block;text-align:center;}
+	header nav,  h2	     			{display:block;text-align:center;}
 }
 
 
