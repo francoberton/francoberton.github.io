@@ -1,6 +1,6 @@
 @media screen and (max-device-width:620px){
-	header h2				{font-size: 3em;}	
-	header nav ul li .font_helvetica   	{font-size: 2em;}
+	header h2				{font-size: 5em;}	
+	header nav ul li .font_helvetica   	{font-size: 3em;}
 }
 
 @media screen and (max-device-width:620px)  {
