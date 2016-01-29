@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-default .navbar-brand	{position:relative;}
 .navbar-default .navbar-brand span, .navbar-default .navbar-brand img {display:inline-block;vertical-align:middle;position:absolute;}
-.navbar-default .navbar-brand span {font-size:1.4em;color: #FED136;font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;margin-left:1.5em; width:12em;}
+.navbar-default .navbar-brand span {font-size:1.3em;color: #FED136;font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;margin-left:1.5em; width:12em;}
 .navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #FED136;border-color: #FED136;}
 .navbar-default .navbar-collapse {border-color: rgba(255, 255, 255, 0.02);}
 .navbar-default .nav li a {font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform: uppercase;font-weight: 400;letter-spacing: 1px;color: #FFF;}
@@ -252,6 +252,14 @@ ul.social-buttons li a:hover {
 .portfolio-modal .modal-content ul.list-inline {
     		margin-bottom: 30px;
     		margin-top: 5em;
+		border:1px solid;
+}
+
+.portfolio-modal .modal-content ul.list-inline li{
+		margin-left:5%;
+}
+.portfolio-modal .modal-content ul.list-inline li a{
+		color:blue;
 }
 .btn-primary {
     		color: #FFF;
