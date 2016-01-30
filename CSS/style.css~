@@ -252,7 +252,6 @@ ul.social-buttons li a:hover {
 .portfolio-modal .modal-content ul.list-inline {
     		margin-bottom: 30px;
     		margin-top: 5em;
-		border:1px solid;
 }
 
 .portfolio-modal .modal-content ul.list-inline li{

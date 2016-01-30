@@ -257,7 +257,7 @@ ul.social-buttons li a:hover {
 .portfolio-modal .modal-content ul.list-inline li{
 		margin-left:5%;
 }
-.portfolio-modal .modal-content ul.list-inline li a{
+.portfolio-modal .modal-content a{
 		color:blue;
 }
 .btn-primary {
