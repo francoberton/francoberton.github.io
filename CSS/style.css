@@ -1,5 +1,5 @@
-
-body			{font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;font-size: 14px;line-height: 1.42857;color: #333;}
+html			{width: 100%;height: 100%;position: relative;}
+body			{width: 100%;height: 100%;position: relative;font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;font-size: 14px;line-height: 1.42857;color: #333;}
 h1, h2, h3, h4, h5, h6 {
     			font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     			text-transform: uppercase;
@@ -35,7 +35,7 @@ p.large 				  {font-size: 16px;}
 p.large 				  {font-size: 16px;}
 section h2.section-heading 		  {font-size: 40px;margin-top: 0px;margin-bottom: 15px;line-height: 1.1;color: inherit;margin-bottom: 75px;}
 .timeline 				  {list-style: outside none none;padding: 0px;position: relative;}
-header 					  {background-image: url("../IMG/background.jpg");background-attachment: scroll;background-position: center center;background-size: cover;text-align: center;color: #FFF;}
+header 					  {min-height: 100%;background-image: url("../IMG/background.jpg");background-attachment: scroll;background-position: center center;background-size: cover;text-align: center;color: #FFF;}
 header .intro-text 			  {padding-top: 100px;padding-bottom: 50px;}
 .skills					  {padding:0.5em 0.15em 0.5em 0.15em;color:#fff;border-radius:5px;}
 .blue					  {background-color: #337AB7;border-color: #2E6DA4;}
