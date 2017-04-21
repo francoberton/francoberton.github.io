@@ -25,6 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default .nav li a:hover,.text-primary,.navbar-default .navbar-brand:hover,footer ul.quicklinks a {color: #FED136;}
 .navbar-default .navbar-nav > .active > a:hover	  {background:#FED136;color:#fff;}
 footer ul.quicklinks a:hover		  {text-decoration:underline;}
+#About_me, #Portfolio 			  {min-height:100%}
 #About_me img				  {margin: 0px auto;border: 7px solid #FFF;}
 section					  {padding: 150px 0px;}
 .bg-light-gray 				  {background-color: #F7F7F7;}
