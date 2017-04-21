@@ -280,10 +280,6 @@ ul.social-buttons li a:hover {
     		transition: padding 0.3s ease 0s;
     		border: 0px none;
 	}
-	header .intro-text {
-    			padding-top: 300px;
-    			padding-bottom: 200px;
-	}
 	header .intro-text .intro-lead-in  {
 		font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
 		font-style: italic;
