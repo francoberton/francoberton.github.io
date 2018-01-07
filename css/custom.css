@@ -487,4 +487,10 @@ ul li {
     p {
         font-size: 0.65em !important;
     }
+    .width-sm-100 {
+        width: 100px;
+    }
+    .height-sm-100 {
+        width: 100px;
+    }
 }
