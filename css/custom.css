@@ -473,3 +473,15 @@ ul li {
 .text-left {
   text-align: left;
 }
+
+@media (max-width: 767px) {
+    span {
+        font-size: 0.80em !important;
+    }
+    h1 {
+        font-size: 3em !important;
+    }
+    p {
+        font-size: 0.75em !important;
+    }
+}
