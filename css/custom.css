@@ -508,4 +508,10 @@ ul li {
     .height-sm-50 {
         height: 50px !important;
     }
+    .width-sm-30{
+        width: 30px !important;
+    } 
+    .height-sm-50 {
+        height: 30px !important;
+    }
 }
