@@ -473,6 +473,9 @@ ul li {
 .text-left {
   text-align: left;
 }
+.pd0 {
+  padding: 0px;     
+}
 
 @media (max-width: 767px) {
     span {
