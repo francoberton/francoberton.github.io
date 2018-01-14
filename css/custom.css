@@ -476,6 +476,9 @@ ul li {
 .pd0 {
   padding: 0px!important;     
 }
+.mb0 {
+  margin-bottom: 0px !important;
+}
 
 @media (max-width: 767px) {
     span {
