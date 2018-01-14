@@ -490,6 +490,9 @@ ul li {
     p {
         font-size: 0.65em !important;
     }
+    .mb-sm-20 {
+        margin-bottom: 20px !important;
+    }
     .width-sm-100 {
         width: 100px !important;
     }
