@@ -23,6 +23,19 @@
     <!-- If the query includes 'print-pdf', use the PDF print sheet -->
     <script>
       document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+     function removeLoading() {
+        setTimeout(function(){ 
+            document.getElementById('img-profile').classList.remove('none');
+            document.getElementById('img-front').classList.add('none');
+            document.getElementById('info-header').classList.remove('none');
+            document.getElementById('info-img-container').classList.remove('none'); 
+            
+        }, 2000);
+        setTimeout(function(){ 
+            document.getElementById('card').classList.remove('loading');
+        }, 2300);
+     }
+     window.onload = removeLoading;
     </script>
 
     <!--[if lt IE 9]>
@@ -39,16 +52,18 @@
 
         <section>
           <div class="flip-container">
-            <div class="flipper width300 height300">
-                <img src="img/me.jpg" class="img-circle front width300 height300" alt="me">
-                <div class="img-circle back width300 height300">
+            <div id="card" class="flipper loading width300 height300">
+                <img id="img-profile" src="img/me.jpg" class="img-circle front width300 height300 none" alt="me">
+                <div id="img-front" class="img-circle front width300 height300">
+                </div>    
+                <div id="info" class="img-circle back width300 height300">
                     <br>
                     <br>  
-                    <div class="header">
+                    <div id="info-header" class="header none">
                         <h5 class="motto color-black">"Get your thinking clean to make it simple"</h5>
                     </div>
                     <br>  
-                    <div class="img-container">
+                    <div id="info-img-container" class="img-container none">
                         <a href="https://www.linkedin.com/in/franco-berton-b09b39113/"><img src="img/linkedin.png" class="width50 height50" alt="linkedin"></a>
                         <a href="mailto:franco.berton93@gmail.com" target="_top"><img src="img/mail.png" class="width50 height50" alt="mail"></a>
                         <a href="https://github.com/francoberton/"><img src="img/github.png" class="width50 height50" alt="github"></a>
