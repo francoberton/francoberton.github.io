@@ -25,12 +25,14 @@
       document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
      function removeLoading() {
         setTimeout(function(){ 
-            document.getElementById('img-profile').classList.remove('none');
-            document.getElementById('img-front').classList.add('none');
             document.getElementById('info-header').classList.remove('none');
             document.getElementById('info-img-container').classList.remove('none'); 
-            document.getElementById('card').classList.remove('loading'); 
         }, 2000);
+        setTimeout(function(){ 
+            document.getElementById('img-profile').classList.remove('none');
+            document.getElementById('img-front').classList.add('none');
+            document.getElementById('card').classList.remove('loading'); 
+        }, 3000);
      }
      window.onload = removeLoading;
     </script>
