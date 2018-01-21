@@ -29,11 +29,7 @@
             document.getElementById('img-front').classList.add('none');
             document.getElementById('info-header').classList.remove('none');
             document.getElementById('info-img-container').classList.remove('none'); 
-            
         }, 2000);
-        setTimeout(function(){ 
-            document.getElementById('card').classList.remove('loading');
-        }, 2300);
      }
      window.onload = removeLoading;
     </script>
@@ -137,8 +133,12 @@
           <section>
             <h2>Programming languages skills</h2>
             <div class="inline-block vertical-align-middle mr-30"> 
-                <div class="table-cell vertical-align-middle">    
-                    <img src="img/javascript.png" class="img-circle width80 height80 width-sm-30 height-sm-30" alt="javascript"/>
+                <div class="table-cell vertical-align-middle">
+                    <div class="table">
+                        <img src="img/javascript.png" class="img-circle width80 height80 width-sm-30 height-sm-30" alt="javascript"/>
+                    </div>
+                </div>
+                <div class="table-cell vertical-align-middle">  
                     <img src="img/arrow-right.png" class="border-none width80 height80 width-sm-30 height-sm-30" alt="arrow-right"/>
                 </div>
                 <div class="table-cell"> 
@@ -155,13 +155,19 @@
                 </div>
             </div>
             <div class="inline-block vertical-align-middle mr-30"> 
-                <div class="table-cell vertical-align-middle">    
-                    <img src="img/php.png" class="img-circle object-position-right width80 height80 width-sm-30 height-sm-30" alt="javascript"/>
+                <div class="table-cell vertical-align-middle">
+                    <div class="table">
+                        <img src="img/php.png" class="img-circle object-position-right width80 height80 width-sm-30 height-sm-30" alt="javascript"/>
+                    </div>
                 </div>
             </div>
             <div class="inline-block vertical-align-middle mr-30"> 
-                <div class="table-cell vertical-align-middle">    
-                    <img src="img/cplusplus.png" class="img-circle width80 height80 width-sm-30 height-sm-30" alt="javascript"/>
+                <div class="table-cell vertical-align-middle">
+                    <div class="table">
+                        <img src="img/cplusplus.png" class="img-circle width80 height80 width-sm-30 height-sm-30" alt="cplusplus"/>
+                    </div>
+                </div>
+                <div class="table-cell vertical-align-middle">  
                     <img src="img/arrow-right.png" class="border-none width80 height80 width-sm-30 height-sm-30" alt="arrow-right"/>
                 </div>
                 <div class="table-cell"> 
@@ -172,7 +178,11 @@
             </div>
             <div class="inline-block vertical-align-middle mr-30">   
                 <div class="table-cell vertical-align-middle"> 
-                    <img src="img/java.png" class="img-circle width80 height80 width-sm-30 height-sm-30 background-white" alt="java"/>
+                    <div class="table">
+                        <img src="img/java.png" class="img-circle width80 height80 width-sm-30 height-sm-30 background-white" alt="java"/>
+                    </div>
+                </div>
+                <div class="table-cell vertical-align-middle">  
                     <img src="img/arrow-right.png" class="border-none width80 height80 width-sm-30 height-sm-30" alt="arrow-right"/>
                 </div>
                 <div class="table-cell">
@@ -184,10 +194,14 @@
           </section>
           <section>
             <h2>Database skills</h2>
-            <div class="inline-block vertical-align-middle mr-30"> 
-                <div class="table-cell vertical-align-middle">    
-                    <img src="img/nosql.png" class="img-circle width100 height100 width-sm-30 height-sm-30 background-white" alt="javascript"/>
-                    <img src="img/arrow-right.png" class="border-none width100 height100 width-sm-30 height-sm-30 " alt="arrow-right"/>
+            <div class="inline-block vertical-align-middle"> 
+                <div class="table-cell vertical-align-middle">
+                    <div class="table">  
+                        <img src="img/nosql.png" class="img-circle width100 height100 width-sm-30 height-sm-30 background-white" alt="nosql"/>
+                    </div>
+                </div>
+                <div class="table-cell vertical-align-middle">  
+                    <img src="img/arrow-right.png" class="border-none width80 height80 width-sm-30 height-sm-30" alt="arrow-right"/>
                 </div>
                 <div class="table-cell"> 
                     <div class="table">  
@@ -197,8 +211,12 @@
             </div>
             <div class="inline-block vertical-align-middle mr-30"> 
                 <div class="table-cell vertical-align-middle">    
-                    <img src="img/sql.png" class="img-circle width100 height100 width-sm-30 height-sm-30  background-white" alt="javascript"/>
-                    <img src="img/arrow-right.png" class="border-none width100 height100 width-sm-30 height-sm-30 " alt="arrow-right"/>
+                    <div class="table">  
+                        <img src="img/sql.png" class="img-circle width100 height100 width-sm-30 height-sm-30  background-white" alt="sql"/>
+                    </div>
+                </div>
+                <div class="table-cell vertical-align-middle">  
+                    <img src="img/arrow-right.png" class="border-none width80 height80 width-sm-30 height-sm-30" alt="arrow-right"/>
                 </div>
                 <div class="table-cell"> 
                     <div class="table">  
@@ -248,7 +266,7 @@
            <section>
              <h2>Configuratore SIU</h2>  
              <p>Progetto orientato allo sviluppo di un sistema della Regione Veneto volto alla gestione di procedure di accesso ai principali fondi strutturali e di investimento europei.</p> <p>L'implementazione del sistema ha previsto l'utilizzo delle seguenti tecnologie:</p>
-             <div class="table">
+             <div class="table m0auto">
                 <div class="table-cell vertical-align-middle pr-10">
                     <p class="inline-block vertical-align-middle">Front-End:</p> 
                     <img src="img/angular.png" class="img-circle inline-block vertical-align-middle width50 height50 width-sm-30 height-sm-30" alt="angular"/> 
@@ -270,7 +288,7 @@
              <h2>MyPortal</h2>
              <p>Il progetto è consistito nello sviluppo di una piattaforma generale che sarà poi utilizzata da 250 comuni del Veneto. La piattaforma è una sorta di cms tramite il quale i comuni avranno la possibilità di crearsi un proprio portale per poter facilitare la relazione con i cittadini e imprese.</p>
              <p>Tecnologie utilizzate:</p> 
-             <div class="table">
+             <div class="table m0auto">
                 <div class="table-cell vertical-align-middle pr-10">
                     <p class="inline-block vertical-align-middle">Front-End:</p> 
                     <img src="img/angular2.jpg" class="img-circle inline-block vertical-align-middle  width50 height50 width-sm-30 height-sm-30" alt="angular2"/> 
@@ -295,7 +313,7 @@
              <p>Piattaforma di appoggio:</p>
              <img src="img/electron.png" class="img-circle inline-block vertical-align-middle width50 height50 mb-30 mb-sm-20 background-white width-sm-30 height-sm-30" alt="electron"/> 
              <p>Tecnologie utilizzate:</p> 
-             <div class="table">
+             <div class="table m0auto">
                 <div class="table-cell vertical-align-middle pr-10">
                     <p class="inline-block vertical-align-middle">Front-End:</p> 
                     <img src="img/angular2.jpg" class="img-circle inline-block vertical-align-middle width50 height50 width-sm-30 height-sm-30" alt="angular2"/> 
@@ -334,7 +352,7 @@
              <h2>Quizzipedia</h2>
              <p>Quizzipedia è un applicativo web che ha come scopo la gestione di quiz. Gli utenti possono allenarsi compilando quiz dinamici oppure creare dei quiz personali da sottoporre a una ristretta cerchia di persone (si pensi ad un insegnante nei confronti degli studenti). L'applicativo offre all'utente la possibilità di eseguire quiz per argomento e all'utente registrato offre la possibilità di salvataggio delle delle statistiche dei questionari svolti.</p>
              <p>Alcune tecnologie utilizzate per lo sviluppo del software:</p>
-             <div class="table">
+             <div class="table m0auto">
                 <div class="table-cell vertical-align-middle pr-10">
                     <p class="inline-block vertical-align-middle">Front-End:</p> 
                     <img src="img/angular2.jpg" class="img-circle inline-block vertical-align-middle width50 height50 width-sm-30 height-sm-30" alt="angular2"/> 

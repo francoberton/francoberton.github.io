@@ -372,8 +372,8 @@ input.big {
 }
 
 .loading {
-  -webkit-animation: spin 0.3s linear infinite; /* Safari */
-  animation: spin 0.3s linear infinite;
+  -webkit-animation: spin 1s ease-out 4; /* Safari */
+  animation: spin 1s ease-out 4;
 }
 
 /* Safari */
@@ -502,6 +502,9 @@ ul li {
 }
 .mb0 {
   margin-bottom: 0px !important;
+}
+.m0auto {
+  margin: 0 auto !important;;
 }
 
 @media (max-width: 767px) {
