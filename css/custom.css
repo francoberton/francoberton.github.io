@@ -372,8 +372,8 @@ input.big {
 }
 
 .loading {
-  -webkit-animation: spin 1s ease-out 7; /* Safari */
-  animation: spin 1s ease-out 7;
+  -webkit-animation: spin 1s ease-out infinite; /* Safari */
+  animation: spin 1s ease-out infinite
 }
 
 /* Safari */
